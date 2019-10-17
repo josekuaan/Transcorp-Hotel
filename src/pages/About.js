@@ -1,10 +1,11 @@
 import React from 'react'
+import BACKTOHOME from './BackToHome'
 
 export default function About() {
     return (
         <div>
             <hi>Welcome to About Page </hi>
-            <hi><Link to="/">BACK TO HOME</Link> </hi>
+            <BACKTOHOME />
         </div>
     )
 }
