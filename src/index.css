@@ -1,0 +1,377 @@
+/* /* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background:white;
+  padding:0px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* my code*/
+
+
+nav{
+  margin-left: 20px;
+}
+
+ .navbar-nav{
+   display:flex;
+   /* justify-content: center; */
+  /* align-items: center; */
+  justify-content: space-around;
+ }
+
+ .navbar-nav > li{
+   margin:10px;
+   font-weight: 500;
+   font-size: 13px;
+ }
+.navbar-nav > li img{
+  width:100px
+}
+ 
+.hero-image {
+  background-image: url("/img/transcorpImage.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* navigation ends here */
+
+.banner{
+  padding-top: 83px;
+  color: white;
+}
+.banner > h1{
+  height: 59px;
+  font-family: Georgia;
+  font-size: 50px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 3.06px;
+  text-align: center;
+  color: #ffffff;
+}
+.date{
+  width: 56px;
+  height: 58px;
+ 
+  font-family: BodoniSvtyTwoITCTT;
+  font-size: 48px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-align: justify;
+  color: #000000;
+}
+  
+ .checks{
+  height: 19px;
+   margin-top:15px!important;
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.58px;
+  text-align: center;
+  color: #9b9b9b;
+}
+.hero-image{
+  text-align: center;
+}
+/* banner ends here */
+
+
+/* main section start here */
+.log{
+  
+  width: 903px;
+  background-color: #ffffff;
+  position: relative;
+  bottom: 70px;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+  background: white;
+}
+
+.aboutUs{
+  width: 751px;
+  padding: 0px 25px 0px 25px;
+}
+.about-us-heading{
+  padding: 20px;
+  color:#9b9b9b
+}
+.sub-heading{
+  height: 41px;
+  font-family: Georgia;
+  font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2.12px;
+  text-align: center;
+  color: #000000;
+}
+
+.our-photos > img{
+  position: relative;
+  top: 60px
+}
+
+.Rooms{
+  margin-top: 80px;
+}
+.description{
+   width: 749px;
+  height: 103px;
+  font-family: Georgia;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.10;
+  letter-spacing: 0.41px;
+  text-align: center;
+  color: #000000;
+}
+.bitmapImage{
+  
+  height: 300px;
+  background-color: #9b9b9b57;
+}
+.bitmapImage > a{
+  width: 204px;
+  height: 18px;
+  font-family: SourceSansPro;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 15;
+  letter-spacing: 4.94px;
+  text-align: justify;
+  color: #9b9b9b;
+}
+
+.testimonies-section  {
+  padding: 88px;
+background-color: #9e9e9e21!important;
+}
+.testimonies{
+  padding: 0 15px 0 15px;
+  background: #ffffff;
+}
+.oval{
+  width: 715px;
+  height: 100px;
+  object-fit: contain;
+}
+.testimonies > div h4{
+  width: 715px;
+  padding: 20px;
+}
+
+.April-10th-2018 {
+  width: 104px;
+  height: 18px;
+  font-family: SourceSansPro;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.82px;
+  text-align: center;
+  color: #d8d8d8;
+}
+.Continue {
+  width: 87px;
+  height: 18px;
+  font-family: SourceSansPro;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.82px;
+  text-align: center;
+  color: #d8d8d8;
+}
+.read {
+  width: 87px;
+  height: 18px;
+  font-family: SourceSansPro;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.82px;
+  text-align: center;
+  
+}
+.Address{
+  margin-left: 30px;
+}
+.discover-our-room {
+  width: 307px;
+  height: 18px;
+  font-family: SourceSansPro;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 4.94px;
+  color: #9b9b9b;
+}
+.luxury{
+  width: 321px;
+  height: 41px;
+  font-family: Georgia;
+  font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2.12px;
+  color: #000000;
+}
+
+.pricePerNight{
+  padding: 10px;
+  height: 14px;
+  font-family: Georgia;
+  font-size: 11px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.71px;
+  text-align: justify;
+  color: #b5b5b5;
+
+}
+.caption{
+  padding: 10px;
+  height: 14px;
+  font-family: Georgia;
+  font-size: 11px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.71px;
+  text-align: justify;
+  color: #b5b5b5;
+}
+.room_photo{
+  margin-top:10px
+}
+
+strong{
+  color:#000
+}
+
+
+
+.firstInterior >img{
+  padding:15px;
+  margin-right: 100px;
+}
+
+
+
+.luxurry-room{
+  background-image: url("/img/rectangle-8.png.png");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.promotion{
+  width: 264px;
+  height: 150px;
+  color:whitesmoke;
+  background-color: #053b58;
+}
+.available{
+      width: 170px;
+    height: 40px;
+    text-align: center;
+    background-color: #ff7200;
+    color: whitesmoke;
+    padding-top: 9px;
+}
+section{
+  margin-top:35px;
+}
+.Abuja {
+  width: 83px;
+  height: 27px;
+  font-family: Georgia;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.41px;
+  color: #000000;
+}
+/* main ends here */
+
+/* footer */
+.footer > div p{
+  margin:0!important;
+  height: 18px;
+  font-family: SourceSansPro;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.39px;
+  color: #9b9b9b;
+  padding: 15px 0 15px 0;
+}
+
+.footer > hr{
+  background: #9b9b9b;
+    width: 1000px;
+    margin: 20px;
+}
+.footer > div hr{
+  background: #9b9b9b;
+    margin: 20px;
+}
+input{
+  background-color: transparent;
+  border: 0px;
+}
+.social-media{
+  padding: 10px;
+  margin-left: 745px;
+}
+
+.cards{
+  padding-left: 20px;
+}
