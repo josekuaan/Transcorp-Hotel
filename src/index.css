@@ -356,7 +356,7 @@ section{
 
 .footer > hr{
   background: #9b9b9b;
-    width: 1000px;
+    width: 2000px;
     margin: 20px;
 }
 .footer > div hr{
@@ -369,7 +369,7 @@ input{
 }
 .social-media{
   padding: 10px;
-  margin-left: 745px;
+  margin-left: 1100px;
 }
 
 .cards{
